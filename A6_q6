@@ -1,0 +1,6 @@
+#print the reverse of a number 
+n=int(input("enter the number:"))
+n=str(n)
+s=n[::-1]
+for i in s:
+    print(i)
