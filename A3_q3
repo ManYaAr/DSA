@@ -1,0 +1,18 @@
+
+t=int(input("no. of times program needs to be executed :"))
+while t != 0:
+    t-=1
+    n=int(input("Enter the prime no. :"))
+    if n!= 1:
+        for i in (2,n-1):
+            if n % i != 0:
+                print(n,"is a prime number")
+                break
+            elif n==2:
+                print(n,"is a prime number")
+                break
+            else:
+                print(n,"is not a prime number")
+                break
+    else:
+        print(n,"is not a prime number")
