@@ -1,0 +1,17 @@
+#inverse of a number
+n=int(input("enter the no. :")) 
+p=str(n)
+l=len(p)
+d={}
+for i in range(0,l):
+    d[i]=int(p[i-1])
+k=list(d.values())
+l1=list(d.keys())
+
+t=list(map(lambda x,y:int(x)*10**y,l1,k))
+a=0
+for i in t:
+    a=a+i
+    print(a,i)
+print(a)
+print(d)
