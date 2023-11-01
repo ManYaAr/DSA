@@ -1,0 +1,4 @@
+#no. of digits in a number input by the user
+n=int(input("enter the number"))
+n=str(n)
+print(len(n))
